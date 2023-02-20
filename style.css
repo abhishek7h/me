@@ -1,0 +1,99 @@
+body {
+  background-color: #444444;
+  font-family: "Nunito Sans", sans-serif;
+  color: #f2b1ad;
+  text-align: center;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap");
+
+.main {
+  position: absolute;
+  font-size: 150%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 50%;
+}
+/* Link styles */
+a:link {
+  color: white;
+  background-color: transparent;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+a:hover {
+  color: #f2b1ad;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+/* responsive design */
+:root {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+/*For mobile devices*/
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+/*for desktop*/
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  p {
+    font-size: 2.1rem;
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: #f2b1ad;*/
+  color: white;
+  text-align: center;
+}
